@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="CSS Dasar">
+        <meta name="keywords" content="Belajar CSS Dasar">
+        <meta name="author" content="Ergi Zenila Marta Sasmige">
+        <meta name="nim" content="233307010">
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <title>Belajar Simple Selektor</title>
+        <link rel="icon" type="png" href="icon.png" sizes="16x16" />
+    </head>
+    <style>
+        div p {
+            color: red;
+        }
+        div > p {
+            background-color: yellow;
+        }
+        div + p {
+            background-color: darkgray;
+        }
+        div ~ p {
+            color: cyan;
+        }
+    </style>
+    <body>
+        <div>
+            <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 1 pada paragraf ini.</p>
+            <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 2 pada paragraf ini.</p>
+        </div>
+        <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 3 pada paragraf ini.</p>
+        <p>This is a paragraph. Terangkan kesimpulan tentang selektor no 4 pada paragraf ini.</p>
+    </body>
+</html>
